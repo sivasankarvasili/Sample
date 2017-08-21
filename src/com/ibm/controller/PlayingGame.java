@@ -80,6 +80,7 @@ public class PlayingGame {
 	
 			
 		}
+		//to display winner
 		System.out.println("Winner Is: Mr."+names.get(0));
 		String choice=sc.next();
 	}
