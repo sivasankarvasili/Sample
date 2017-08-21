@@ -12,7 +12,7 @@ public class PlayingGame {
 	public static void main(String[] args) {
 		int players=0,top=0;
 		Map<String,Integer> scores=new HashMap<>();
-		
+		//reading the no .of players
 		List<String> names=new ArrayList<String>();
 		System.out.print("Enter the No.of Players: ");
 		Scanner sc=new Scanner(System.in);
