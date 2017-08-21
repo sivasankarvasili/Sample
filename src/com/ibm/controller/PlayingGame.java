@@ -17,7 +17,7 @@ public class PlayingGame {
 		System.out.print("Enter the No.of Players: ");
 		Scanner sc=new Scanner(System.in);
 		players=sc.nextInt();
-		
+		//reading the player names
 		for(int i=0;i<players;i++){
 			String name=null;
 			System.out.print("Enter the Player "+(i+1)+" Name:");
