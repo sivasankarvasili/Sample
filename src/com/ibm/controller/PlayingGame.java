@@ -63,6 +63,7 @@ public class PlayingGame {
 	            }
 	            System.out.println(key + " -------- "+ value);
 	        }*/
+	        //displays who have finishes the game
 	        for(Iterator<String> iterator =keys.iterator();iterator.hasNext();){
 	        	key = (String)iterator.next();
 	        	value = scores.get(key);
