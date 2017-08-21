@@ -75,6 +75,7 @@ public class PlayingGame {
 	            	iterator.remove();
 	            	//System.out.println("Array Size"+names.size());
 	            }
+	        	//displays scores
 	        	System.out.println(key + " -------- "+ value);
 	        }
 	
