@@ -27,6 +27,7 @@ public class PlayingGame {
 		System.out.println();
 		System.out.print("Enter the Most Score");
 		top=sc.nextInt();
+		//reading the scores
 		while(names.size()!=1)
 		{
 			int sum=0;
